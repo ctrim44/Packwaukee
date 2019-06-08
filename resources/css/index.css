@@ -1,0 +1,65 @@
+body {
+	background-color: black;
+}
+
+.whole_body {
+	max-width: 1400px;
+	background-color: white;
+	margin: auto;
+}
+
+h1 {
+	color: orange;
+}
+
+p {
+	color: green;
+}
+
+/* For the header */
+
+.header {
+	min-height: 400px;
+}
+
+.top_three_pics {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.top_three_pics img {
+	max-width: 33%;
+	height: auto;
+}
+
+.header_text {
+	text-align: center;
+}
+
+
+
+
+/*Content area*/
+
+/*side nav*/
+
+.side_nav {
+	background-color: gray;
+	width: 200px;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+}
+
+.content {
+	margin-left: 200px;
+	background-color: blue;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.item {
+	background-color: green;
+}
